@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface BIDViewController : UIViewController
+- (IBAction)buttonPressed:(UIButton *)sender;
 
 @end

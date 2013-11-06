@@ -18,6 +18,16 @@
 		B1FF036017F21DE600979E4F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FF035F17F21DE600979E4F /* Default-568h@2x.png */; };
 		B1FF036317F21DE600979E4F /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FF036217F21DE600979E4F /* BIDViewController.m */; };
 		B1FF036617F21DE600979E4F /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1FF036417F21DE600979E4F /* BIDViewController.xib */; };
+		B1FF036D17F22B9600979E4F /* 10sdbn8-001.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FF036C17F22B9600979E4F /* 10sdbn8-001.png */; };
+		B1FF036F17F22B9C00979E4F /* 10sdbn8.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FF036E17F22B9C00979E4F /* 10sdbn8.png */; };
+		B1FF037117F235AA00979E4F /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = B1FF037017F235AA00979E4F /* sounds */; };
+		B1FF037317F237E500979E4F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FF037217F237E500979E4F /* AudioToolbox.framework */; };
+		B1FF037A17F2388600979E4F /* floor.wav in Resources */ = {isa = PBXBuildFile; fileRef = B1FF037417F2388600979E4F /* floor.wav */; };
+		B1FF037B17F2388600979E4F /* hat.wav in Resources */ = {isa = PBXBuildFile; fileRef = B1FF037517F2388600979E4F /* hat.wav */; };
+		B1FF037C17F2388600979E4F /* kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = B1FF037617F2388600979E4F /* kick.wav */; };
+		B1FF037D17F2388600979E4F /* ride.wav in Resources */ = {isa = PBXBuildFile; fileRef = B1FF037717F2388600979E4F /* ride.wav */; };
+		B1FF037E17F2388600979E4F /* snare.wav in Resources */ = {isa = PBXBuildFile; fileRef = B1FF037817F2388600979E4F /* snare.wav */; };
+		B1FF037F17F2388600979E4F /* tom.wav in Resources */ = {isa = PBXBuildFile; fileRef = B1FF037917F2388600979E4F /* tom.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,16 @@
 		B1FF036117F21DE600979E4F /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
 		B1FF036217F21DE600979E4F /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		B1FF036517F21DE600979E4F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		B1FF036C17F22B9600979E4F /* 10sdbn8-001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10sdbn8-001.png"; sourceTree = "<group>"; };
+		B1FF036E17F22B9C00979E4F /* 10sdbn8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10sdbn8.png; sourceTree = "<group>"; };
+		B1FF037017F235AA00979E4F /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sounds; sourceTree = "<group>"; };
+		B1FF037217F237E500979E4F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B1FF037417F2388600979E4F /* floor.wav */ = {isa = PBXFileReference; lastKnownFileType = file; name = floor.wav; path = ../sounds/floor.wav; sourceTree = "<group>"; };
+		B1FF037517F2388600979E4F /* hat.wav */ = {isa = PBXFileReference; lastKnownFileType = file; name = hat.wav; path = ../sounds/hat.wav; sourceTree = "<group>"; };
+		B1FF037617F2388600979E4F /* kick.wav */ = {isa = PBXFileReference; lastKnownFileType = file; name = kick.wav; path = ../sounds/kick.wav; sourceTree = "<group>"; };
+		B1FF037717F2388600979E4F /* ride.wav */ = {isa = PBXFileReference; lastKnownFileType = file; name = ride.wav; path = ../sounds/ride.wav; sourceTree = "<group>"; };
+		B1FF037817F2388600979E4F /* snare.wav */ = {isa = PBXFileReference; lastKnownFileType = file; name = snare.wav; path = ../sounds/snare.wav; sourceTree = "<group>"; };
+		B1FF037917F2388600979E4F /* tom.wav */ = {isa = PBXFileReference; lastKnownFileType = file; name = tom.wav; path = ../sounds/tom.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1FF037317F237E500979E4F /* AudioToolbox.framework in Frameworks */,
 				B1FF034A17F21DE600979E4F /* UIKit.framework in Frameworks */,
 				B1FF034C17F21DE600979E4F /* Foundation.framework in Frameworks */,
 				B1FF034E17F21DE600979E4F /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +77,10 @@
 		B1FF033D17F21DE600979E4F = {
 			isa = PBXGroup;
 			children = (
+				B1FF037217F237E500979E4F /* AudioToolbox.framework */,
+				B1FF037017F235AA00979E4F /* sounds */,
+				B1FF036E17F22B9C00979E4F /* 10sdbn8.png */,
+				B1FF036C17F22B9600979E4F /* 10sdbn8-001.png */,
 				B1FF034F17F21DE600979E4F /* Simple Drums */,
 				B1FF034817F21DE600979E4F /* Frameworks */,
 				B1FF034717F21DE600979E4F /* Products */,
@@ -83,6 +108,12 @@
 		B1FF034F17F21DE600979E4F /* Simple Drums */ = {
 			isa = PBXGroup;
 			children = (
+				B1FF037417F2388600979E4F /* floor.wav */,
+				B1FF037517F2388600979E4F /* hat.wav */,
+				B1FF037617F2388600979E4F /* kick.wav */,
+				B1FF037717F2388600979E4F /* ride.wav */,
+				B1FF037817F2388600979E4F /* snare.wav */,
+				B1FF037917F2388600979E4F /* tom.wav */,
 				B1FF035817F21DE600979E4F /* BIDAppDelegate.h */,
 				B1FF035917F21DE600979E4F /* BIDAppDelegate.m */,
 				B1FF036117F21DE600979E4F /* BIDViewController.h */,
@@ -164,6 +195,15 @@
 				B1FF035E17F21DE600979E4F /* Default@2x.png in Resources */,
 				B1FF036017F21DE600979E4F /* Default-568h@2x.png in Resources */,
 				B1FF036617F21DE600979E4F /* BIDViewController.xib in Resources */,
+				B1FF036D17F22B9600979E4F /* 10sdbn8-001.png in Resources */,
+				B1FF036F17F22B9C00979E4F /* 10sdbn8.png in Resources */,
+				B1FF037117F235AA00979E4F /* sounds in Resources */,
+				B1FF037A17F2388600979E4F /* floor.wav in Resources */,
+				B1FF037B17F2388600979E4F /* hat.wav in Resources */,
+				B1FF037C17F2388600979E4F /* kick.wav in Resources */,
+				B1FF037D17F2388600979E4F /* ride.wav in Resources */,
+				B1FF037E17F2388600979E4F /* snare.wav in Resources */,
+				B1FF037F17F2388600979E4F /* tom.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
